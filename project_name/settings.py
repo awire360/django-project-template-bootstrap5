@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "allauth.account",
     "crispy_forms",
     "widget_tweaks",
+    # Local Apps
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = "{{ project_name }}.urls"
