@@ -10,3 +10,4 @@ django-htmx
 django-filter
 crispy-tailwind
 django-template-partials
+django-unfold
