@@ -8,6 +8,6 @@ python-dotenv
 django-widget-tweaks
 django-htmx
 django-filter
-crispy-tailwind
+crispy-bootstrap5
 django-template-partials
 django-unfold
